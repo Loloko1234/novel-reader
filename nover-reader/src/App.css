@@ -53,3 +53,18 @@ button:disabled {
     flex-grow: 1;
   }
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navigation button {
+  padding: 10px 20px;
+}
+
+.navigation span {
+  font-weight: bold;
+}
